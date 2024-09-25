@@ -6,8 +6,8 @@ import { Controls } from './Controls';
 import { getElementsFromAsyncAPISpec } from './utils/node-factory';
 import { calculateNodesForDynamicLayout } from './utils/node-calculator';
 
-import type { OldAsyncAPIDocument as AsyncAPIDocument } from '@asyncapi/parser/cjs';
-import type { FunctionComponent } from 'react';
+import type { OldAsyncAPIDocument as AsyncAPIDocument } from '@asyncapi/parser';
+import { FunctionComponent } from 'react';
 
 interface FlowDiagramProps {
   parsedSpec: AsyncAPIDocument;

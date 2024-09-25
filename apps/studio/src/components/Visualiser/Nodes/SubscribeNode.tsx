@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Handle, Position } from 'reactflow';
 
-import { useServices } from '../../../services';
+import { useServices } from '@/services';
 import getBackgroundColor from '../utils/random-background-color';
 
 // @ts-ignore
 import { Markdown } from '@asyncapi/react-component/lib/esm/components/Markdown';
 
-import type { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 
 interface IData {
   messages: any []

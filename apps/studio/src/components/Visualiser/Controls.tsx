@@ -4,7 +4,7 @@ import { VscDebugStart, VscDebugPause, VscRefresh } from 'react-icons/vsc';
 
 import { calculateNodesForDynamicLayout } from './utils/node-calculator';
 
-import type { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 
 interface ControlsProps {}
 

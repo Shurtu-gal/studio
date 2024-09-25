@@ -1,11 +1,12 @@
+'use client'
 import { useMemo } from 'react';
 import MonacoEditor from '@monaco-editor/react';
 
-import { debounce } from '../../helpers';
-import { useServices } from '../../services';
-import { useFilesState, useSettingsState } from '../../state';
+import { debounce } from '@/helpers';
+import { useServices } from '@/services';
+import { useFilesState, useSettingsState } from '@/state';
 
-import type { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import type { EditorProps as MonacoEditorProps } from '@monaco-editor/react';
 
 export const MonacoWrapper: FunctionComponent<MonacoEditorProps> = ({
